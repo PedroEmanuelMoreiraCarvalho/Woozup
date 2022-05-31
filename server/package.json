@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Pedro Emanuel Moreira Carvalho",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase": "^9.8.2",
+    "nodemon": "^2.0.16",
+    "pcf-start": "^1.6.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/helper-compilation-targets": "^7.17.10"
+  }
+}
