@@ -1,0 +1,27 @@
+.home_page{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+  
+.top_bar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  box-shadow: 0px -10px 20px #444;
+}
+  
+.top_bar h1{
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+
+.profile_image{
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: contain;
+}
